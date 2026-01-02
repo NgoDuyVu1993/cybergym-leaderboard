@@ -1,16 +1,18 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019b796e-602b-7293-b1b1-a33afd2fc565"
+image = "ghcr.io/ngoduyvu1993/cybergym-green-agent:latest"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019b7976-29af-70c2-89c2-992a139ac6aa"
+image = "ghcr.io/ngoduyvu1993/cybergym-purple-agent:latest"
+name = "CyberGym-Purple-Agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-# Add your assessment config here
+tasks = [
+  "oss-fuzz:42535201",
+  "oss-fuzz:370689421",
+  "oss-fuzz:385167047"
+]
+timeout = 300
