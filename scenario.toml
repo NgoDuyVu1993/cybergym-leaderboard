@@ -1,13 +1,9 @@
-# scenario.toml - CyberGym Assessment Configuration
-
 [green_agent]
-agentbeats_id = "YOUR_GREEN_AGENT_ID_HERE"
-image = "ghcr.io/ngoduyvu1993/cybergym-green-agent:latest"
+agentbeats_id = "019b796e-602b-7293-b1b1-a33afd2fc565"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = "YOUR_PURPLE_AGENT_ID_HERE"
-image = "ghcr.io/ngoduyvu1993/cybergym-purple-agent:latest"
+agentbeats_id = "019b7976-29af-70c2-89c2-992a139ac6aa"
 name = "CyberGym-Purple-Agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
