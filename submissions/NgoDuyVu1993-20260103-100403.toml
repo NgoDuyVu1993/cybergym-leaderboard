@@ -1,0 +1,22 @@
+[green_agent]
+agentbeats_id = "019b796e-602b-7293-b1b1-a33afd2fc565"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019b7976-29af-70c2-89c2-992a139ac6aa"
+name = "CyberGym-Purple-Agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+tasks = [
+  "oss-fuzz:42535201",
+  "oss-fuzz:370689421",
+  "oss-fuzz:385167047"
+]
+
+timeout = 300
+# Trigger: 2026-01-03 18:59:57
+
+# Trigger: 2026-01-03 19:40:16
+
+# Trigger: 2026-01-03 20:03:24

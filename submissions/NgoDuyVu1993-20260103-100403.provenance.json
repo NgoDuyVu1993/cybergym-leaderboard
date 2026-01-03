@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/ngoduyvu1993/cybergym-green-agent@sha256:c6b41c9e6ea6ae6d4ac1fbef16ad9e8b69ead49591ae09c0ea8445d4f32fe441",
+    "CyberGym-Purple-Agent": "ghcr.io/ngoduyvu1993/cybergym-purple-agent@sha256:5c56125c8add5641663049cae85d017d411ddb1746b4494dda5251401139048f",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-03T10:04:03Z"
+}
