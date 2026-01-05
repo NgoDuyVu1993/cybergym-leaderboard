@@ -1,0 +1,23 @@
+[green_agent]
+agentbeats_id = "019b796e-602b-7293-b1b1-a33afd2fc565"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019b7976-29af-70c2-89c2-992a139ac6aa"
+name = "CyberGym-Purple-Agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+# Only 2 tasks - Task 385167047 removed (55GB too large for surgical build)
+tasks = [
+  "oss-fuzz:42535201",
+  "oss-fuzz:370689421"
+]
+
+timeout = 300
+
+# CyberGym from source fix: 2026-01-05 21:56:58
+
+# CyberGym [server] extra fix: 2026-01-05 22:19:25
+
+# Phase 1 Mock Fallback: 2026-01-05 23:27:34
