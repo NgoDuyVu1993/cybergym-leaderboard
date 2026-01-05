@@ -8,16 +8,10 @@ name = "CyberGym-Purple-Agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
+# Only 2 tasks - Task 385167047 removed (55GB too large for surgical build)
 tasks = [
   "oss-fuzz:42535201",
-  "oss-fuzz:370689421",
-  "oss-fuzz:385167047"
+  "oss-fuzz:370689421"
 ]
 
 timeout = 300
-
-# Disk space fix test: 2026-01-04 17:03:41
-
-# Surgical build: 2026-01-04 23:48:51
-
-# Surgical build: 2026-01-05 20:55:40
