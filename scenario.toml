@@ -1,21 +1,18 @@
 [green_agent]
 agentbeats_id = "019b796e-602b-7293-b1b1-a33afd2fc565"
-image = "ghcr.io/ngoduyvu1993/cybergym-green-agent:latest"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
 agentbeats_id = "019b7976-29af-70c2-89c2-992a139ac6aa"
-image = "ghcr.io/ngoduyvu1993/cybergym-purple-agent:latest"
 name = "CyberGym-Purple-Agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
+# Only 2 tasks - Task 385167047 removed (55GB too large for surgical build)
 tasks = [
   "oss-fuzz:42535201",
-  "oss-fuzz:370689421",
-  "oss-fuzz:385167047"
+  "oss-fuzz:370689421"
 ]
 
-
 timeout = 300
-# Phase 1 Mock Fallback: 2026-01-07 00:06:45
+
