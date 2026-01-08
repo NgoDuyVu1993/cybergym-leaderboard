@@ -17,12 +17,4 @@ tasks = [
 
 timeout = 300
 
-<<<<<<< HEAD
-=======
-# CyberGym from source fix: 2026-01-05 21:56:58
-
-# CyberGym [server] extra fix: 2026-01-05 22:19:25
-
-# Phase 1 Mock Fallback: 2026-01-05 23:27:34
-# Trigger: 2026-01-07_00-26-22
-# Trigger: 2026-01-07_00-36-33
+# Trigger: 2026-01-08_23-04-57
